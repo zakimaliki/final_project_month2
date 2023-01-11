@@ -4,24 +4,30 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <div class="header__logo">
+            <div class="header__logo mt-3" style="float: left;">
               <a
-              
                 href="/"
                 aria-current="page"
                 class="router-link-exact-active router-link-active"
                 ><img
-                
-                  src="/dist/logo.png?c65a549346db961cf25bc2316646ac3b"
+                  style="
+                    width: 200px;
+                    padding-top: 10px;
+                    vertical-align: middle;
+                    border-style: none;
+                  "
+                  src="../assets/logo.png"
                   alt=""
               /></a>
             </div>
           </div>
           <div class="col-lg-6">
-            <nav class="header__menu">
+            <nav class="header__menu" style="float: right;">
               <ul type="none">
                 <li class="mt-3">
-                  <router-link to="/input" class="headNav">Add New Movie</router-link>
+                  <router-link to="/input" class="headNav"
+                    >Add New Movie</router-link
+                  >
                 </li>
               </ul>
             </nav>
